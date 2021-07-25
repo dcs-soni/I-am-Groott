@@ -16,11 +16,11 @@ h1 {
 
 .heading-txt {
     margin-left: 9%;
-    margin-top: 4%;
+    margin-top: 9%;
 }
 
 #ip-txt, #op-txt {
-    margin: 2rem 2rem;
+    margin: 1rem 2rem;
     padding: 1rem;
     width: 35vw;
     height: 20vh;
@@ -38,7 +38,7 @@ h1 {
     padding: 1rem;
     margin: 2rem 2rem;
     margin-top: 0; 
-    margin-left: 13%;
+    margin-left: 15%;
     border: 1px solid var(--background);
     border-radius: 10px;
     
@@ -97,7 +97,7 @@ footer {
 
 .groot {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     
 }
 
@@ -113,11 +113,20 @@ h1 {
 
 
 @media only screen and (max-width: 640px) {
-    .groot {
-        filter: blur(2px);  
-    }
 
     #ip-txt, #op-txt {
+        width: 80vw;
         text-align: center;
+    }
+
+    #btn-translate {
+        margin-left: 39%;
+        margin-top: 17rem;
+        margin-bottom: 0;
+        /* margin-bottom: 14rem;     */
+    }
+
+    footer {
+        margin-top: 0;
     }
 }
